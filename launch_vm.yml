@@ -1,0 +1,19 @@
+- name: Create a new instance and attaches to a network and passes metadata to the instance
+  os_server:
+       state: present
+       auth:
+         auth_url: https://elasticcloud.ono.es:5000/v3
+         username: vgonzal  
+         password: 8Vy1tU74816a0xe
+         project_name: vgonzal
+       name: vm1
+       image: a77f2945-8246-4005-ab4e-5ea6abdd3ec2
+       key_name: vgonzal_ec
+       timeout: 200
+       flavor: 4
+       nics:
+         - net-id: 81c99077-de56-4912-957d-cffb3ab20313
+         - net-name: test_AWX
+       meta:
+         hostname: test1
+         #group: uge_master
