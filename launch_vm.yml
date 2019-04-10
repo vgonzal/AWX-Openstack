@@ -12,7 +12,7 @@
       os_server:
         name: vm1
         state: present
-		auth:
+	auth:
          auth_url: "{{ auth_url }}"
          username: "{{ username }}"
          password: "{{ password }}"
@@ -26,6 +26,6 @@
         #security_groups: "{{ item.security_groups }}"
         #auto_ip: yes
         timeout: 200
-		nics:
+	nics:
          - net-id: 81c99077-de56-4912-957d-cffb3ab20313
          - net-name: test_AWX
