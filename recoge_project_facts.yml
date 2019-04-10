@@ -4,7 +4,6 @@
     - always
   tasks:
     - name: Despliegue instancia.
-      os_server:
       os_project_facts:
         cloud: awesomecloud
         name: demoproject
