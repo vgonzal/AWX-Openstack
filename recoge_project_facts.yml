@@ -5,8 +5,11 @@
   tasks:
     - name: Despliegue instancia.
       os_project_facts:
-        cloud: awesomecloud
-        name: demoproject
-        domain: admindomain
+        auth:
+        auth_url: "{{ auth_url }}"
+        username: "{{ username }}"
+        password: "{{ password }}"
+        project_name: "{{ project_name }}"
+        domain_name: "{{ domain_name }}"
         filters:
           enabled: False
