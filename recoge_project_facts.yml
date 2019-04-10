@@ -1,0 +1,13 @@
+- name: Recoge facts
+  hosts: localhost
+  tags:
+    - always
+  tasks:
+    - name: Despliegue instancia.  Las variables estan definidas en el inventario
+      os_server:
+      os_project_facts:
+        cloud: awesomecloud
+        name: demoproject
+        domain: admindomain
+        filters:
+          enabled: False
