@@ -3,7 +3,7 @@
   tags:
     - always
   tasks:
-    - name: Despliegue instancia.  Las variables estan definidas en el inventario
+    - name: Despliegue instancia.
       os_server:
       os_project_facts:
         cloud: awesomecloud
