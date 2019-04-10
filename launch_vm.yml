@@ -12,7 +12,7 @@
       os_server:
         name: vm1
         state: present
-	auth:
+        auth:
          auth_url: "{{ auth_url }}"
          username: "{{ username }}"
          password: "{{ password }}"
