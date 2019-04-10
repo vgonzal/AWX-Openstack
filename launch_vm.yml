@@ -22,5 +22,4 @@
         key_name: vgonzal_ec
         timeout: 200
 	nics:
-         - net-id: 81c99077-de56-4912-957d-cffb3ab20313
          - net-name: test_AWX
