@@ -12,6 +12,7 @@
          username: "{{ username }}"
          password: "{{ password }}"
          project_name: "{{ project_name }}"
+         domain_name: "{{ domain_name }}"
         image: a77f2945-8246-4005-ab4e-5ea6abdd3ec2
         flavor: m1.medium
         key_name: vgonzal_ec
