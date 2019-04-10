@@ -14,10 +14,10 @@
         state: present
 	auth:
          auth_url: "{{ auth_url }}"
-	 username: "{{ username }}"
-	 password: "{{ password }}"
-	 project_name: "{{ project_name }}"
-	image: a77f2945-8246-4005-ab4e-5ea6abdd3ec2
+         username: "{{ username }}"
+         password: "{{ password }}"
+         project_name: "{{ project_name }}"
+        image: a77f2945-8246-4005-ab4e-5ea6abdd3ec2
         flavor: m1.medium
         key_name: vgonzal_ec
         timeout: 200
