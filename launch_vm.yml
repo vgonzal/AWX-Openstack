@@ -3,7 +3,7 @@
   tags:
     - always
   tasks:
-    - name: Despliegue instancia
+    - name: Despliegue instancia.  Las variables estan definidas en el inventario
       os_server:
         name: vm1
         state: present
