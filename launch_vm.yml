@@ -20,11 +20,6 @@
         image: a77f2945-8246-4005-ab4e-5ea6abdd3ec2
         flavor: m1.medium
         key_name: vgonzal_ec
-        #boot_from_volume: true
-        #terminate_volume: true
-        #volume_size: 20
-        #security_groups: "{{ item.security_groups }}"
-        #auto_ip: yes
         timeout: 200
 	nics:
          - net-id: 81c99077-de56-4912-957d-cffb3ab20313
