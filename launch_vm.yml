@@ -21,5 +21,5 @@
         flavor: m1.medium
         key_name: vgonzal_ec
         timeout: 200
-	nics:
+        nics:
          - net-name: test_AWX
