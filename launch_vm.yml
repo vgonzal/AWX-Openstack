@@ -2,11 +2,6 @@
   hosts: localhost
   tags:
     - always
-
-  gather_facts: false
-  vars_files:
-    - ~/.ansible/vars/openstack_vars.yml
-
   tasks:
     - name: Despliegue instancia
       os_server:
