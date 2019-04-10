@@ -19,3 +19,4 @@
         timeout: 200
         nics:
          - net-name: test_AWX
+        auto_ip: no
